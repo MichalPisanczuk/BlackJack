@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.container {
+    width: 70vw;
+    height: 100vh;
+    background-color: rgba(231, 50, 50, 0.233);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.player {
+    width: 50%;
+    height: 50%;
+    float: left;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    .player {
+      float: unset ;
+      height: 50vh;
+      width: 100%;
+    }
+  }
+
+.score {
+    display: inline-block;
+    width: 100%;
+    margin: 30px auto 30px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.active-player {
+    background-color: rgb(248, 56, 56);
+}
+
+.dice {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    .dice {
+      top: 40%;
+    }
+  }
+
+.dice-number-1 {
+    width: 60px;
+    height: 60px;
+    background-image: url('img/dice-1.png');
+}
+
+.dice-number-2 {
+    width: 60px;
+    height: 60px;
+    background-image: url('img/dice-2.png');
+}
+
+.dice-number-3 {
+    width: 60px;
+    height: 60px;
+    background-image: url('img/dice-3.png');
+}
+
+.dice-number-4 {
+    width: 60px;
+    height: 60px;
+    background-image: url('img/dice-4.png');
+}
+
+.dice-number-5 {
+    width: 60px;
+    height: 60px;
+    background-image: url('img/dice-5.png');
+}
+
+.dice-number-6 {
+    width: 60px;
+    height: 60px;
+    background-image: url('img/dice-6.png');
+}
+
+
+h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 5px 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    cursor: pointer;
+}
