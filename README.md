@@ -1,2 +1,2 @@
 # BlackJack
-# This is simply BlackJack game wrote in JavaScript
+This is simply BlackJack game wrote in JavaScript
